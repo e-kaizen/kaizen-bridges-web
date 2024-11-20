@@ -17,7 +17,7 @@ export const Hero = () => {
           <Button 
             size="lg"
             className="bg-secondary hover:bg-secondary/90 text-white"
-            onClick={() => window.location.href = "#contact"}
+            onClick={() => window.open("https://forms.gle/hAkPfX3hiEGdiZS48", "_blank")}
           >
             無料相談はこちら
             <ArrowRight className="ml-2 h-4 w-4" />
