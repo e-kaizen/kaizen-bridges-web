@@ -7,7 +7,7 @@ export const ContactButton = () => {
       <Button 
         size="lg"
         className="bg-secondary hover:bg-secondary/90 text-white shadow-lg"
-        onClick={() => window.location.href = "#contact"}
+        onClick={() => window.open("https://forms.gle/hAkPfX3hiEGdiZS48", "_blank")}
       >
         <MessageSquare className="mr-2 h-4 w-4" />
         無料相談
